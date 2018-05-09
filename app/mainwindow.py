@@ -22,6 +22,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         exitAction = QAction(QIcon("C:/Users/jun.he/Pictures/images/cat/5.jpg"), '&退出', self)
         # 设置快捷键
         exitAction.setShortcut('Ctrl+Q')
+        # 设置状态栏显示tip
         exitAction.setStatusTip('退出应用')
         exitAction.triggered.connect(self.close)
         self.statusBar()
