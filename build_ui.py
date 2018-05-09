@@ -5,9 +5,9 @@ import os
 import subprocess
 
 
-inputFile = os.path.abspath(os.path.join("app/res", "maindlg.ui"))
+inputFile = os.path.abspath(os.path.join("app/res", "mainwindow.ui"))
 print("input file ={}".format(inputFile))
-outputFile = os.path.abspath("app/maindlg_ui.py")
+outputFile = os.path.abspath("app/mainwindow_ui.py")
 print("output file ={}".format(outputFile))
 try:
     # py3.4.3
