@@ -13,14 +13,33 @@
   <property name="windowTitle">
    <string>摩擦力测试</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>10</y>
+      <width>780</width>
+      <height>540</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <widget class="QWidget" name="page"/>
+    <widget class="QWidget" name="page_2"/>
+   </widget>
+  </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>26</height>
+     <height>23</height>
     </rect>
    </property>
   </widget>

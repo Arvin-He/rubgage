@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'C:\Users\jun.he\Documents\github\rubgage\app\res\mainwindow.ui'
+# Form implementation generated from reading ui file 'G:\arvin\rubgage\app\res\mainwindow.ui'
 #
-# Created by: PyQt5 UI code generator 5.9
+# Created by: PyQt5 UI code generator 5.10.1
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -14,9 +14,20 @@ class Ui_MainWindow(object):
         MainWindow.resize(800, 600)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
+        self.stackedWidget = QtWidgets.QStackedWidget(self.centralwidget)
+        self.stackedWidget.setGeometry(QtCore.QRect(5, 10, 780, 540))
+        self.stackedWidget.setFrameShape(QtWidgets.QFrame.NoFrame)
+        self.stackedWidget.setFrameShadow(QtWidgets.QFrame.Plain)
+        self.stackedWidget.setObjectName("stackedWidget")
+        self.page = QtWidgets.QWidget()
+        self.page.setObjectName("page")
+        self.stackedWidget.addWidget(self.page)
+        self.page_2 = QtWidgets.QWidget()
+        self.page_2.setObjectName("page_2")
+        self.stackedWidget.addWidget(self.page_2)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 26))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 23))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
