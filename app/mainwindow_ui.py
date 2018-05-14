@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'C:\Users\jun.he\Documents\github\rubgage\app\res\mainwindow.ui'
+# Form implementation generated from reading ui file 'c:\Users\jun.he\Documents\github\rubgage\app\res\mainwindow.ui'
 #
 # Created by: PyQt5 UI code generator 5.9
 #
